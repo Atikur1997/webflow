@@ -22,11 +22,24 @@
     font-weight: bold;
 }
 
+.btn:hover {
+    background-color: greenyellow;
+    transition: 1s;
+    color: tomato;
+}
+
+.sameFonts {
+    font-family: raleway;
+    font-weight: bold;
+    color: #252432;
+}
+
 /* header part starts here */
 header {
     width: 100%;
     height: 700px;
     background: linear-gradient(rgba(78, 71, 255, 0.01)), url("Assets/Hero-bg.png");
+    text-align: center;
 }
 
 /* nav part starts here  */
@@ -41,3 +54,19 @@ header {
     width: 150px;
 
 }
+
+/* banner starts here */
+.banner {
+    width: 900px;
+    height: 230px;
+    margin: 158px auto;
+}
+
+.banner-title {
+    font-size: 65px;
+}
+
+.banner button {
+    margin-top: 40px;
+}
+
